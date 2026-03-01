@@ -1,3 +1,17 @@
 # Ignore bin folder
 bin/
+.vscode/
+.classpath
 /.metadata/
+.settings/
+.project
+# Ignore build files
+build/
+# Ignore log files
+*.log
+# Ignore temporary files
+*.tmp
+# Ignore compiled Java files
+*.class
+# Ignore Eclipse files  
+*.launch
