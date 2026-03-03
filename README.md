@@ -5,10 +5,10 @@ A comprehensive Java learning and practice repository covering fundamental Java 
 ## 📋 Table of Contents
 
 - [Project Overview](#project-overview)
-- [Prerequisites & Installation](#prerequisites--installation)
+- [Prerequisites &amp; Installation](#prerequisites--installation)
 - [Project Structure](#project-structure)
 - [Module Descriptions](#module-descriptions)
-- [How to Compile & Run](#how-to-compile--run)
+- [How to Compile &amp; Run](#how-to-compile--run)
 - [Topics Covered](#topics-covered)
 - [Directory Guide](#directory-guide)
 
@@ -42,16 +42,19 @@ This repository serves as a hands-on guide to learning Java from basics to inter
 #### **Option B: Using Package Managers**
 
 **Windows (Chocolatey):**
+
 ```powershell
 choco install openjdk
 ```
 
 **macOS (Homebrew):**
+
 ```bash
 brew install openjdk
 ```
 
 **Ubuntu/Debian:**
+
 ```bash
 sudo apt-get update
 sudo apt-get install openjdk-11-jdk
@@ -65,6 +68,7 @@ javac -version
 ```
 
 You should see output like:
+
 ```
 java version "11.0.12" 2021-07-20 LTS
 Java(TM) SE Runtime Environment 18.9
@@ -74,6 +78,7 @@ Java HotSpot(TM) 64-Bit Server VM 11.0.12
 ### Step 3: Set JAVA_HOME Environment Variable
 
 #### **Windows:**
+
 1. Open System Properties (Advanced tab)
 2. Click "Environment Variables"
 3. Create a new system variable:
@@ -82,6 +87,7 @@ Java HotSpot(TM) 64-Bit Server VM 11.0.12
 4. Click OK and restart your IDE
 
 #### **macOS/Linux:**
+
 ```bash
 export JAVA_HOME=$(/usr/libexec/java_home -v 11)
 echo $JAVA_HOME
@@ -123,6 +129,7 @@ java_revamp/
 ### 1. **java_revamp/** - Structured 6-Day Learning Path
 
 #### **Day 1: Java Basics**
+
 - **File**: `day_1/TestApp_1.java`
 - **Topics**:
   - Java syntax and structure
@@ -131,36 +138,42 @@ java_revamp/
   - Running your first Java program
 
 #### **Day 2: Input, Type Conversion & Wrapper Classes**
+
 - **Files**:
+
   - `day_2/ScanFunction_2.java` - User input with Scanner
   - `day_2/TypeCasting_2.java` - Explicit type casting
   - `day_2/TypeConversion_2.java` - Implicit/explicit conversions
   - `day_2/WrapperClass_2.java` - Integer, String, Boolean wrappers
   - `day_2/SummOfNumbers_2.java` - Practical example
-
 - **Topics**:
+
   - Scanner for user input
   - Type casting (narrowing & widening)
   - Wrapper classes (Integer, Double, Boolean, String)
   - Autoboxing & unboxing
 
 #### **Day 3: Arrays & Strings**
+
 - **Files**:
+
   - `day_3/Array_3.java` - 1D arrays
   - `day_3/TwoDimnArray_3.java` - 2D arrays
   - `day_3/JaggedArray_3.java` - Jagged arrays (irregular 2D)
   - `day_3/Strings_3.java` - String operations and methods
   - `day_3/StringCRUD_3.java` - String manipulation
   - `day_3/ArrayClass_3.java` - Array class utilities
-
 - **Topics**:
+
   - Array declaration, initialization, and traversal
   - Multi-dimensional arrays
   - String immutability, concatenation, methods
   - Working with StringBuilder and StringBuffer
 
 #### **Day 4-5: Object-Oriented Programming (OOP)**
+
 - **Files**:
+
   - `day_4_5/oops_4.java` - OOP fundamentals
   - `day_4_5/oops_4_CRUD.java` - CRUD operations with classes
   - `day_4_5/oops_4_CRUD_todo_entity.java` - Entity class example
@@ -171,8 +184,8 @@ java_revamp/
   - `day_4_5/oops_5_main_overloading.java` - Method overloading
   - `day_4_5/oops_5_class_int_imp.java` - Class & interface integration
   - `day_4_5/oops_5_user.java` & `oops_5_user_dao.java` - Real-world example
-
 - **Topics**:
+
   - Classes and objects
   - Constructors and initialization
   - Encapsulation (getters/setters)
@@ -182,7 +195,9 @@ java_revamp/
   - Data Access Objects (DAO)
 
 #### **Day 6: Inheritance & Advanced OOP**
+
 - **Files**:
+
   - `day_6/single_multilevel_inheritance.java` - Single and multilevel inheritance
   - `day_6/multiple_inheritance.java` - Multiple inheritance via interfaces
   - `day_6/hierarchy_inheritance.java` - Hierarchical inheritance
@@ -191,8 +206,8 @@ java_revamp/
   - `day_6/staticc.java` - Static variables and methods
   - `day_6/finalkeyword.java` - Final classes and methods
   - `day_6/interface_implement.java` - Interface implementation
-
 - **Topics**:
+
   - Inheritance types (single, multiple, hierarchical, multilevel)
   - `super` and `this` keywords
   - Method overriding
@@ -203,11 +218,12 @@ java_revamp/
 ### 2. **collectionss/** - Java Collections Framework
 
 - **Files**:
+
   - `arraylist_demo.java` - Dynamic array implementation
   - `hashmap_demo.java` - Key-value pair storage
   - `hashset_demo.java` - Unique element storage
-
 - **Topics**:
+
   - ArrayList (generic and non-generic)
   - HashMap (key-value mapping)
   - HashSet (unique elements)
@@ -218,12 +234,13 @@ java_revamp/
 ### 3. **exception_handling/** - Exception Management
 
 - **Files**:
+
   - `except.java` - Basic try-catch-finally
   - `exception_demo.java` - Exception demonstrations
   - `chked_exception.java` - Checked exceptions
   - `throws_exception.java` - Throws clause usage
-
 - **Topics**:
+
   - Try-catch-finally blocks
   - Checked vs unchecked exceptions
   - Custom exception handling
@@ -233,11 +250,12 @@ java_revamp/
 ### 4. **interfacee/** - Interface Design Patterns
 
 - **Files**:
+
   - `i1.java` & `i2.java` - Interface declarations
   - `c1.java` & `c2.java` - Implementation classes
   - `interface_demo.java` - Usage demonstration
-
 - **Topics**:
+
   - Interface declaration and implementation
   - Abstract methods
   - Multiple interface implementation
@@ -248,30 +266,31 @@ java_revamp/
 
 Common Java algorithms and mathematical problems:
 
-| Problem | File | Description |
-|---------|------|-------------|
-| Prime Number | `Prime.java` | Check if a number is prime |
-| Fibonacci | `Fibonacci.java` | Generate Fibonacci sequence |
-| Factorial | `Factorial.java` | Calculate factorial |
-| Palindrome | `palindrome.java` | Check if number/string is palindrome |
-| Armstrong | `armstrong.java` | Check Armstrong/narcissistic numbers |
-| GCD & LCM | `gcd_lcd.java` | Greatest common divisor & least common multiple |
-| Digit Count | `digit_count.java` | Count digits in a number |
-| Sum of Digits | `sumofdigits.java` | Add all digits together |
-| Reverse Number | `reverse_num.java` | Reverse integer digits |
-| Largest/Smallest | `largest_smallest.java` | Find extremes in array |
-| Odd/Even | `OddEven.java` | Classify numbers |
-| Sort Digits | `sortdigits.java` | Sort digits in number |
-| Swap Numbers | `Swap_num.java` | Swap two numbers |
+| Problem          | File                      | Description                                     |
+| ---------------- | ------------------------- | ----------------------------------------------- |
+| Prime Number     | `Prime.java`            | Check if a number is prime                      |
+| Fibonacci        | `Fibonacci.java`        | Generate Fibonacci sequence                     |
+| Factorial        | `Factorial.java`        | Calculate factorial                             |
+| Palindrome       | `palindrome.java`       | Check if number/string is palindrome            |
+| Armstrong        | `armstrong.java`        | Check Armstrong/narcissistic numbers            |
+| GCD & LCM        | `gcd_lcd.java`          | Greatest common divisor & least common multiple |
+| Digit Count      | `digit_count.java`      | Count digits in a number                        |
+| Sum of Digits    | `sumofdigits.java`      | Add all digits together                         |
+| Reverse Number   | `reverse_num.java`      | Reverse integer digits                          |
+| Largest/Smallest | `largest_smallest.java` | Find extremes in array                          |
+| Odd/Even         | `OddEven.java`          | Classify numbers                                |
+| Sort Digits      | `sortdigits.java`       | Sort digits in number                           |
+| Swap Numbers     | `Swap_num.java`         | Swap two numbers                                |
 
 ### 6. **type_casting/** - Type System Examples
 
 - **Files**:
+
   - `type_cast.java` - Basic type casting
   - `typecasting_object.java` - Object type casting
   - `stringbfr.java` - StringBuffer usage
-
 - **Topics**:
+
   - Primitive type casting (widening & narrowing)
   - Object type casting
   - instanceof operator
@@ -280,10 +299,11 @@ Common Java algorithms and mathematical problems:
 ### 7. **wrapperclass/** - Wrapper Classes
 
 - **Files**:
+
   - `wrapper_class.java` - Standard wrapper usage
   - `wrap_class.java` - Additional examples
-
 - **Topics**:
+
   - Integer, Double, Boolean, Long, String wrappers
   - Autoboxing and unboxing
   - Parsing strings to primitives
@@ -296,12 +316,14 @@ Common Java algorithms and mathematical problems:
 ### Using Command Line
 
 #### **Compile All Files:**
+
 ```bash
 cd java_revmp
 javac -d bin src/**/*.java
 ```
 
 #### **Run Specific File:**
+
 ```bash
 # Example: Run TestApp_1
 java -cp bin java_revamp.day_1.TestApp_1
@@ -316,11 +338,13 @@ java -cp bin collectionss.arraylist_demo
 #### **Common Commands:**
 
 **Compile a single file:**
+
 ```bash
 javac -d bin src/java_revamp/day_1/TestApp_1.java
 ```
 
 **Compile with module info:**
+
 ```bash
 javac --module-source-path src -d bin src/module-info.java src/**/*.java
 ```
@@ -328,11 +352,13 @@ javac --module-source-path src -d bin src/module-info.java src/**/*.java
 ### Using IDE (Recommended)
 
 #### **Eclipse/IntelliJ IDEA:**
+
 1. Import the project as existing Java project
 2. Right-click on the source file
 3. Select "Run As" → "Java Application"
 
 #### **VS Code:**
+
 1. Install "Extension Pack for Java"
 2. Open the Java file
 3. Click "Run" button above the main method
@@ -342,6 +368,7 @@ javac --module-source-path src -d bin src/module-info.java src/**/*.java
 ## 🎓 Topics Covered
 
 ### Fundamentals
+
 - ✅ Data types and variables
 - ✅ Operators (arithmetic, logical, relational)
 - ✅ Control flow (if-else, loops)
@@ -349,6 +376,7 @@ javac --module-source-path src -d bin src/module-info.java src/**/*.java
 - ✅ Scope and lifecycle
 
 ### Intermediate
+
 - ✅ Arrays (1D, 2D, jagged)
 - ✅ Strings and StringBuilder
 - ✅ Scanner for user input
@@ -356,6 +384,7 @@ javac --module-source-path src -d bin src/module-info.java src/**/*.java
 - ✅ Wrapper classes
 
 ### Object-Oriented Programming
+
 - ✅ Classes and objects
 - ✅ Encapsulation (getters/setters)
 - ✅ Inheritance (single, multiple, multilevel, hierarchical)
@@ -365,6 +394,7 @@ javac --module-source-path src -d bin src/module-info.java src/**/*.java
 - ✅ `static` and `final` keywords
 
 ### Collections & Utilities
+
 - ✅ ArrayList
 - ✅ HashMap
 - ✅ HashSet
@@ -372,12 +402,14 @@ javac --module-source-path src -d bin src/module-info.java src/**/*.java
 - ✅ Generic types
 
 ### Exception Handling
+
 - ✅ Try-catch-finally blocks
 - ✅ Custom exceptions
 - ✅ Checked vs unchecked exceptions
 - ✅ Exception propagation (throws)
 
 ### Problem Solving
+
 - ✅ Mathematical algorithms
 - ✅ Number manipulation
 - ✅ String operations
@@ -485,6 +517,7 @@ java -cp bin java_revamp.day_1.TestApp_1
 ```
 
 **Expected Output:**
+
 ```
 Welcome to Full Stack Training
 Byte value: 10
@@ -543,16 +576,19 @@ java -cp bin java_ques.Fibonacci
 ## ⚙️ Troubleshooting
 
 ### "javac command not found"
+
 - Ensure JDK is installed (not just JRE)
 - Check JAVA_HOME environment variable
 - Restart your terminal/IDE after installation
 
 ### "Class not found"
+
 - Verify package name matches directory structure
 - Check if files are compiled to bin folder: `javac -d bin ...`
 - Ensure classpath includes bin folder: `java -cp bin ...`
 
 ### "Exception in thread main"
+
 - Check package declarations match file locations
 - Ensure main method is `public static void main(String[] args)`
 - Verify no syntax errors exist
@@ -571,12 +607,6 @@ java -cp bin java_ques.Fibonacci
 ## 📄 License
 
 This is a learning repository created for educational purposes.
-
----
-
-## 👤 Author
-
-Created by **Anurag Sharma**
 
 ---
 
