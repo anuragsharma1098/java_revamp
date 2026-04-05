@@ -8,6 +8,8 @@ public class each_string_word_reverse {
         String reversedWordsStr = reverseEachWord(str);
         System.out.println("Original String: " + str);
         System.out.println("Reversed Each Word String: " + reversedWordsStr);
+        System.out.println("Reversed Each Word String using manual method: " + reverseEachWordManual(str));
+        System.out.println("Reversed Each Word String using simple method: " + reverseEachWordSimple(str));
     }
 
     // Method to reverse each word in a string
@@ -37,6 +39,22 @@ public class each_string_word_reverse {
         }
 
         return reversedString.toString().trim();
+    }
+
+    // simplest way using empty string
+    public static String reverseEachWordSimple(String str) {
+        String[] words = str.split(" ");
+        String reversedString = "";
+
+        for (String word : words) {
+            String reversedWord = "";
+            for (int i = word.length() - 1; i >= 0; i--) {
+                reversedWord += word.charAt(i);
+            }
+            reversedString += reversedWord + " ";
+        }
+
+        return reversedString.trim();
     }
 
 }

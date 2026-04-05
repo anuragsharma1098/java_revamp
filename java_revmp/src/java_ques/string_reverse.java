@@ -6,6 +6,7 @@ public class string_reverse {
         String reversedStr = reverseString(str);
         System.out.println("Original String: " + str);
         System.out.println("Reversed String: " + reversedStr);
+        System.out.println("Reversed String using simple method: " + reverseStringSimple(str));
         // using inbuilt method
         String reversedStrInbuilt = new StringBuilder(str).reverse().toString();
         System.out.println("Reversed String using inbuilt method: " + reversedStrInbuilt);
@@ -18,5 +19,14 @@ public class string_reverse {
             reversed.append(str.charAt(i));
         }
         return reversed.toString();
+    }
+
+    // simplest way using empty string
+    public static String reverseStringSimple(String str) {
+        String reversed = "";
+        for (int i = str.length() - 1; i >= 0; i--) {
+            reversed += str.charAt(i);
+        }
+        return reversed;
     }
 }
