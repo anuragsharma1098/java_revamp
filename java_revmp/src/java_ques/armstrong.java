@@ -27,6 +27,7 @@ public class armstrong {
     // num /= 10;
     // }
 
+    
     // return sum == originalNum;
     // }
     public static boolean isArmstrong(int num) {
