@@ -42,7 +42,7 @@ public class armstrong {
         }
         if (s == onum)
             return true;
-        else
+        else 
             return false;
     }
 }
