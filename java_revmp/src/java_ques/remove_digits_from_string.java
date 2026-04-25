@@ -14,6 +14,6 @@ public class remove_digits_from_string {
                 sb.append(ch);
             }
         }
-        return sb.toString();
+        return sb.toString();  
     }
 }
