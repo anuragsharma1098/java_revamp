@@ -33,7 +33,7 @@ public class digit_count {
     //         if (Character.isDigit(c)) { // Count only digit characters
     //             count++;
     //         }
-    //     }
+    //     } 
     //     return count;
     // }
 }
